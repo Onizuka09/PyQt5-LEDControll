@@ -2,7 +2,7 @@
 ## 1-Intro
 Control an LED via button using PyQt5.
 
-![image] (images/app.png)
+![image](images/app.png)
 
 The led.py file contains function that discribes how configures the GPIO and set value for a raspberry PI.
 
