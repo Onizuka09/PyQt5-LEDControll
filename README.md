@@ -1,4 +1,4 @@
-# PyQt5-LEDControll
+# PyQt5-LEDControl
 ## 1-Intro
 Control an LED via button using PyQt5.
 
