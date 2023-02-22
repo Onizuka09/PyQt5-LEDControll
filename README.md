@@ -26,13 +26,13 @@ To work with Raspberry pi
 - Uncomment these lines :
 
   ```python
-      #f = open("/sys/class/gpio/export", "w")
-      #s = open(f"/sys/class/gpio/export/gpio{PIN}/direction", "w")
-      #f = open(f"/sys/class/gpio/export/gpio23/value", "w")
+      f = open("/sys/class/gpio/export", "w")
+      s = open(f"/sys/class/gpio/export/gpio{PIN}/direction", "w")
+      f = open(f"/sys/class/gpio/export/gpio23/value", "w")
   ```
 
 - Comment this line: 
 
   ```python
-      f = open(f"gpio{PIN}", "w")
+      #f = open(f"gpio{PIN}", "w")
   ```
